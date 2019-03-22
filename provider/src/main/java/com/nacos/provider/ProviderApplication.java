@@ -18,6 +18,7 @@ public class ProviderApplication {
     public static void main(String[] args) throws IOException {
         SpringApplication.run(ProviderApplication.class, args);
         System.out.println("DemoService provider is starting...");
+        //程序等待不关闭
         System.in.read();
     }
 
